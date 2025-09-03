@@ -91,24 +91,21 @@
 
 #### gh-pages (免费)
 
-1、右上角点击 `Fork` 当前项目。
+1、右上角点击 Fork 当前项目。
 
-2、[https://github.com/settings/tokens/new](https://github.com/settings/tokens/new) 申请 `token`, 勾选读写权限, 复制并保存 Token。
+2、https://github.com/settings/tokens/new 申请 token, 勾选读写权限, 复制并保存 Token。
 
 3、添加申请的Token
 
 3.1、https://github.com/你的用户名/nav/settings/secrets/actions/new ，添加申请的 token
 
-
-
 3、打开 https://github.com/你的用户名/nav/actions 检查是否已开启 action 自动部署
 
-4、修改项目根目录配置文件 [nav.config.yaml](nav.config.yaml) 只需要修改仓库地址 `gitRepoUrl` 字段
+4、修改项目根目录配置文件 nav.config.yaml 只需要修改仓库地址 gitRepoUrl 字段
 
 5、打开 https://你的用户名.github.io/nav 就能看到一个非常强大的导航网站了。
 
-如果打开 404，请打开 https://github.com/你的用户名/nav/settings/pages 检查分支是否是 **gh-pages**。
-
+如果打开 404，请打开 https://github.com/你的用户名/nav/settings/pages 检查分支是否是 gh-pages。
 #### Netlify 推荐(免费)
 
 打包路径 `dist/browser`
