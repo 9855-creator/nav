@@ -95,6 +95,12 @@
 
 2、[https://github.com/settings/tokens/new](https://github.com/settings/tokens/new) 申请 `token`, 勾选读写权限, 复制并保存 Token。
 
+3、添加申请的Token
+
+3.1、https://github.com/你的用户名/nav/settings/secrets/actions/new ，添加申请的 token
+
+
+
 3、打开 https://github.com/你的用户名/nav/actions 检查是否已开启 action 自动部署
 
 4、修改项目根目录配置文件 [nav.config.yaml](nav.config.yaml) 只需要修改仓库地址 `gitRepoUrl` 字段
