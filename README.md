@@ -91,13 +91,6 @@ git push
 npm run update
 ```
 
-## 支持
-
-项目于 2018 年到至今一直坚持维护和开源, 经过 N 次的迭代与优化, 如果项目能帮到您是我的荣幸。
-
-您可以请作者喝杯咖啡，继续战斗下去
-
-<img src="https://gcore.jsdelivr.net/gh/xjh22222228/public@gh-pages/img/32.png" width="600">
 
 ## LICENSE
 
